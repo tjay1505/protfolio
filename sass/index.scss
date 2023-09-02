@@ -1,17 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Russo+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+<<<<<<< HEAD
 
 $f1 : 'Montserrat',
 sans-serif;
 $f2: 'Russo One', sans-serif;
 $f3:'Nanum Gothic Coding', cursive;
+=======
+$f1 : 'Montserrat',
+sans-serif;
+$f2: 'Russo One', sans-serif;
+$f3 :'Nanum Gothic Coding', cursive; ;
+>>>>>>> 5eb0f4378eb85542f975c0d2d2033b6f5a18a050
 * {
     padding: 0;
     margin: 0;
 }
 
 body{
+<<<<<<< HEAD
     
+=======
+>>>>>>> 5eb0f4378eb85542f975c0d2d2033b6f5a18a050
     font-family: $f1;
 
 }
@@ -22,7 +32,8 @@ body{
     justify-content: space-between;
     height: 15vmin;
     padding: 0 4%;
-
+    border-radius: 4vmin;
+    margin: 5%;
 
     h2 {
         font-family: $f2;
@@ -41,6 +52,7 @@ body{
 }
 
 .A{
+<<<<<<< HEAD
     margin-top: 4px;
 
     h3{
@@ -58,6 +70,37 @@ body{
 @keyframes typing {
     from{
         width: 0;
+=======
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin-top: 4%;
+    h3{
+        font-family: $f3;
+        width: 93%;
+        font-size: medium;
+        white-space: nowrap;
+        border-right: 2px solid rgb(0, 132, 255);
+        animation: typing 3s steps(40) ,blink 1s infinite step-end;
+        overflow: hidden;
+    }
+    .A-images{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    #main-img{
+        width: 90%;
+        margin-top: 3%;
+    }
+}
+@keyframes typing {
+    from{
+        width: 0%;
+>>>>>>> 5eb0f4378eb85542f975c0d2d2033b6f5a18a050
     }
 }
 @keyframes blink {

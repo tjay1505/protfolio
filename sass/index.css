@@ -15,6 +15,8 @@ body {
   justify-content: space-between;
   height: 15vmin;
   padding: 0 4%;
+  border-radius: 4vmin;
+  margin: 5%;
 }
 .header h2 {
   font-family: "Russo One", sans-serif;
@@ -29,6 +31,7 @@ body {
 }
 
 .A {
+<<<<<<< HEAD
   margin-top: 4px;
 }
 .A h3 {
@@ -40,11 +43,41 @@ body {
   overflow: hidden;
   height: 5vmin;
   white-space: nowrap;
+=======
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  margin-top: 4%;
+}
+.A h3 {
+  font-family: "Nanum Gothic Coding", cursive;
+  width: 93%;
+  font-size: medium;
+  white-space: nowrap;
+  border-right: 2px solid rgb(0, 132, 255);
+  animation: typing 3s steps(40), blink 1s infinite step-end;
+  overflow: hidden;
+}
+.A .A-images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.A #main-img {
+  width: 90%;
+  margin-top: 3%;
+>>>>>>> 5eb0f4378eb85542f975c0d2d2033b6f5a18a050
 }
 
 @keyframes typing {
   from {
+<<<<<<< HEAD
     width: 0;
+=======
+    width: 0%;
+>>>>>>> 5eb0f4378eb85542f975c0d2d2033b6f5a18a050
   }
 }
 @keyframes blink {
