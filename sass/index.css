@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Russo+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap");
 * {
   padding: 0;
   margin: 0;
-  font-family: "Montserrat", sans-serif;
 }
 
 body {
-  filter: blur();
+  font-family: "Montserrat", sans-serif;
 }
 
 .header {
@@ -26,4 +26,29 @@ body {
 .header img {
   width: 7vmin;
   transform: rotateY(190deg);
+}
+
+.A {
+  margin-top: 4px;
+}
+.A h3 {
+  font-family: "Nanum Gothic Coding", cursive;
+  font-size: large;
+  border-right: 2px solid red;
+  width: 52ch;
+  animation: typing steps(52) 3s, blink 1s infinite;
+  overflow: hidden;
+  height: 5vmin;
+  white-space: nowrap;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
 }/*# sourceMappingURL=index.css.map */
