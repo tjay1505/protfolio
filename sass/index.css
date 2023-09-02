@@ -31,19 +31,6 @@ body {
 }
 
 .A {
-<<<<<<< HEAD
-  margin-top: 4px;
-}
-.A h3 {
-  font-family: "Nanum Gothic Coding", cursive;
-  font-size: large;
-  border-right: 2px solid red;
-  width: 52ch;
-  animation: typing steps(52) 3s, blink 1s infinite;
-  overflow: hidden;
-  height: 5vmin;
-  white-space: nowrap;
-=======
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -53,11 +40,11 @@ body {
 }
 .A h3 {
   font-family: "Nanum Gothic Coding", cursive;
-  width: 93%;
+  width: 83%;
   font-size: medium;
   white-space: nowrap;
   border-right: 2px solid rgb(0, 132, 255);
-  animation: typing 3s steps(40), blink 1s infinite step-end;
+  animation: typing 2.5s steps(40), blink 1s infinite step-end;
   overflow: hidden;
 }
 .A .A-images {
@@ -66,18 +53,26 @@ body {
   justify-content: center;
 }
 .A #main-img {
-  width: 90%;
+  width: 99%;
   margin-top: 3%;
->>>>>>> 5eb0f4378eb85542f975c0d2d2033b6f5a18a050
+  border-radius: 2vmin;
+  transition: all 200ms;
+  animation: 0.5s linear scroller;
+  position: relative;
 }
 
+@keyframes scroller {
+  from {
+    opacity: 0;
+    right: 30%;
+  }
+  to {
+    right: 0%;
+  }
+}
 @keyframes typing {
   from {
-<<<<<<< HEAD
-    width: 0;
-=======
     width: 0%;
->>>>>>> 5eb0f4378eb85542f975c0d2d2033b6f5a18a050
   }
 }
 @keyframes blink {
