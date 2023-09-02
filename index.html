@@ -4,16 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JK portfolio</title>
-    <link rel="stylesheet" href="/sass/index.css">
-    <link rel="shortcut icon" href="/logo/favicon.webp" type="image/x-icon">
+    <link rel="stylesheet" href="./sass/index.css">
+    <link rel="shortcut icon" href="./logo/favicon.webp" type="image/x-icon">
     <style>
         :root{
             --black:black;
             --white : white;
+            --bgcblack : rgb(92, 92, 92) ;
+            --bgcwhite :  rgb(236, 236, 236);
         }
         body{
             background-color: var(--white);
             color: var(--black);
+        }
+        .header{
+            background-color:var();
         }
     </style>
 </head>
@@ -21,12 +26,15 @@
     <div class="header">
         <h2>portfolio</h2>
         
-        <img src="/icons/menu.png" onclick="changeTheme()" id="menu" alt="">
+        <img src="./icons/menu.png" onclick="changeTheme()" id="menu" alt="">
     </div>
     <div class="A">
-        wrrger
+        <h3>Hello!,Introducing myself as a front-end developer.</h3>
+        <div class="A-images">
+            <img src="./assets/img_1.jpg" id="main-img" alt="">
+        </div>
     </div>
 
-    <script src="/venilla.js" ></script>
+    <script src="./venilla.js" ></script>
 </body>
 </html>
